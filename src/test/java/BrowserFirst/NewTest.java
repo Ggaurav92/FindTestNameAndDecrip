@@ -14,11 +14,13 @@ import org.testng.annotations.AfterSuite;
 public class NewTest extends BrowserFunction{
   @Test
   public void g1() {
+	  System.out.println("This is the change for git");
 	  Assert.assertEquals(true, true);
   }
   
   @Test
   public void g2() {
+	  System.out.println("This is the change for git");
 	  Assert.assertEquals(true, false);
   }
   
