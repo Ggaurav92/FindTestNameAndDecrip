@@ -9,6 +9,8 @@ public class NewTest1 extends BrowserFunction{
 	@Test
 	public void n1() {
 		Assert.assertEquals(true, true);
+		
+		System.out.println("This is the third change in Browserfunction");
 	}
 
 	@Test

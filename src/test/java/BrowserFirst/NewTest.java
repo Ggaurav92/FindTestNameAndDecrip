@@ -16,6 +16,8 @@ public class NewTest extends BrowserFunction{
   public void g1() {
 	  System.out.println("This is the change for git");
 	  System.out.println("This is the second change for git");
+	  
+	  System.out.println("This is the third change from  Gitx");
 	  Assert.assertEquals(true, true);
   }
   
@@ -23,6 +25,7 @@ public class NewTest extends BrowserFunction{
   public void g2() {
 	  System.out.println("This is the change for git");
 	  System.out.println("This is the second change for git");
+	  System.out.println("This is the third change for gitx in step2");
 	  Assert.assertEquals(true, false);
   }
   
